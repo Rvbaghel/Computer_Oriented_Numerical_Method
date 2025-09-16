@@ -19,7 +19,6 @@ def secand_method(x0,x1,tol):
            #remeber this one 
            x3=x1-f_x1*(x1-x0)/(f_x1-f_x0)
            
-           f_x3=f_x(x3)
            
            error=x3-old_3
            
